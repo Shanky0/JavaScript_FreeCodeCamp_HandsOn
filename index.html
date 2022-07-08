@@ -9,28 +9,12 @@
 </head>
 <body>
     <script>
-let count = 0;
-
-function cc(card) {
+const myDog = {
   // Only change code below this line
+"name":"doggy",legs:32,tails:4,friends:[23,543]
 
-  if(card >=2 && card<=6)
-  count++;
-  else if(card == 10 || card =="J" || card == "Q" || card == "K" || card == "A")
-  count--;
-let res;
-  if(count>=1){
-    res = count + " Bet";
-    return res;
-  }else if(count<=0){
-
-    res =  count + " Hold";
-    return res;
-  }
   // Only change code above this line
-}
-
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+};
     </script>
 </body>
 </html>
